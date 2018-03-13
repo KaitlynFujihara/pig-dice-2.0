@@ -1,8 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pig Dice 2.0</title>
+    <title>Triangle Tracker</title>
   </head>
+
   <body>
+
+    <div class="container">
+      <h1>A Triangle Problem</h1>
+      <p>Enter your three lengths, and I'll tell you what kind of triangle it makes!</p>
+      <form id="triangle">
+        <div class="form-group">
+          <label for="length1">Length 1</label>
+          <input id="length1" type="text">
+        </div>
+        <div class="form-group">
+          <label for="length2">Length 2</label>
+          <input id="length2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="length3">Length 3</label>
+          <input id="length3" type="text">
+        </div>
+        <button type="submit" class="btn">Show me what kind of triangle!</button>
+      </form>
+
+      <div>
+        <div id="isosceles">
+          <p>You got the isosceles triangle!</p>
+        </div>
+
+        <div id="equilateral">
+          <p>You got the equilateral triangle!</p>
+        </div>
+
+        <div id="scalene">
+          <p>You got the scalene triangle!</p>
+        </div>
+
+        <div id="none">
+          <p>Not a triangle, loser.</p>
+        </div>
+
+      </div>
+
+
+    </div>
   </body>
 </html>

@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Pig Dice 2.0',
+      title: 'Triangle Tracker',
       template: './src/index.html',
       inject: 'body'
     })
